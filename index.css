@@ -1,0 +1,1046 @@
+body{
+    padding: 0rem;
+    margin:  0rem ;
+    box-sizing: border-box ;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    --main-color:#283526;
+    --primary-color:#888888;
+    --button-background:#4b709e;
+    --primary-button-background:#fe7649;
+    --background-color:#e6edf5;
+}
+h1,h2{
+    font-family: 'Lato', sans-serif;
+    color: var(--main-color);
+    font-size: 3.5rem;
+}
+h3,h4{
+    font-family: 'Crimson Text', serif;
+    color: var(--main-color);
+    font-size: 2.5rem;
+    width: 60rem;
+}
+h3{
+    font-weight: 750;
+    font-size: 3.5rem;
+    line-height: 10px;
+}
+p,a,li,button{
+    font-family:'Crimson Text', serif;
+    color: var(--primary-color);
+
+}
+p{
+    font-size: 3rem;
+    line-height: 100%;
+    font-style: normal;
+    font-weight: normal;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+
+}
+ul{
+    list-style: none;
+}
+button{
+    padding: 1px 3px ;
+    border-width: 2px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+header{
+    padding: 0px 20px;
+}
+header nav{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 5rem;
+    width: 100%;
+    height: 20rem;
+}
+header nav .left{
+    display: flex;
+    width: 75%;
+}
+header nav .left .mid ul a{
+    margin-right: 20px;
+    font-size: 25px;
+    transition: all 0.2s; 
+    position: relative;
+    z-index: 100; 
+}
+header nav .left .mid ul a:hover{
+    color: var(--button-background) ;
+}
+header nav .right button{
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 1rem;
+    height: 5rem;
+    background-color: var(--button-background);
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
+    position: relative;
+    z-index: 100;
+}
+header nav .right button:hover{
+    background-color:rgb(44, 71, 151);
+}
+header nav .right a{
+    font-size: 20px;
+    margin-top: 1rem;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px 10px;
+    position: relative;
+    z-index: 100;
+}
+header nav .right a:hover{
+    color: var(--button-background) ;
+}
+.temp{
+    display: flex;
+}
+.temp .leftside h1{
+    font-size: 60px;
+    width: 40rem;
+    margin: 10rem 15rem 0rem 20rem;
+    margin-right:0rem ;
+}
+.temp .leftside p{
+    font-size: 20px;
+    margin-left: 20rem;
+    width: 40rem;
+    margin-top:40px;
+}
+.temp .leftside .buttontemp{
+    display: flex;
+}
+.temp .leftside .buttontemp .img1{
+    height: 38px;
+    width: 12rem;
+    margin-left: 19rem;
+    cursor: pointer;
+}
+.temp .leftside .buttontemp .img2{
+    margin-top: -0.7px;
+    height: 40px;
+    width: 13rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+.temp .rightside {
+    border-radius: 90px 20px 0px 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.temp .rightside img{
+    width: 70rem;
+    height:70rem;
+    margin-right: 100px;
+}
+.sec2{
+    display: flex;
+    margin-top: 40rem;
+    padding-left:10rem;
+}
+.sec2 .temp1 img{
+    margin-left: 5rem;
+    margin-top: 3rem;
+    height:70rem;
+    width: 65rem;
+}
+.sec2 .temp2{
+    margin-top:13rem;
+    margin-left: 45rem;
+}
+.sec2 .temp2 h2{
+    font-size: 50px;
+    width: 50rem;
+}
+.sec2 .temp2 p{
+    font-size: 20px;
+    width: 40rem;
+}
+.sec2 .temp2 .b1,.sec4 .temp5 .b1{
+    background-color:var(--primary-button-background) ;
+    border-radius: 10px 10px 10px 10px;
+    padding:5px 10px;
+    font-size: 20px;
+    color: white;
+}
+.sec2 .temp1 figure{
+    width: 40rem;
+    height:68rem;
+    border-radius: 20px 20px 20px 20px ;
+    background-color:rgb(201, 222, 248);
+    margin-left: 8rem;
+}
+.sec2 .temp2 .b2{
+    margin-left: 10px;
+    border-radius: 10px 10px 10px 10px;
+    padding:5px 10px;
+    font-size: 20px;
+    color: black;
+}
+.sec3{
+    padding :0.1rem;
+    width: 100%;
+    height: 55rem;
+    margin-top: 30rem;  
+    background-color: var(--background-color);
+    text-align: center;
+}
+.sec3  h2{
+    font-size: 25px;
+}
+.sec3 .temp3 p{
+    width: 36rem;
+    text-align: center;
+    margin:auto;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.sec3 .temp4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap:3rem;
+}
+.sec3 .temp4 .t1,.sec3 .temp4 .t2,.sec3 .temp4 .t3{
+    width: 40rem;
+    text-align: center;
+    transition: all 0.2s;
+    margin: 4rem;
+
+}
+.sec3 .temp4 .t1:hover,.sec3 .temp4 .t2:hover{
+    background: #fff;
+    box-shadow: 0rem 0.4rem 2rem  rgba(35,22,53,0.25);
+    border-radius: 20px;
+}
+.sec3 .temp4 .t3:hover> img,
+.sec3 .temp4 .t1:hover> img,
+.sec3 .temp4 .t2:hover> img{
+    transform: rotate(360deg);
+    cursor: pointer;
+}
+.sec3 .temp4 .t1 img,.sec3 .temp4 .t2 img,.sec3 .temp4 .t3 img{
+    width: 15rem;
+    height: 15rem;
+    transition: all 0.3s;
+}
+.sec3 .temp4 .t3{
+    background: #fff;
+    box-shadow: 0rem 0.4rem 2rem  rgba(35,22,53,0.25);
+    border-radius: 20px;
+    /* padding: 10px; */
+}
+.sec4{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 25rem;
+}
+.sec4 .temp5 h2{
+    padding-top: 10rem;
+    padding-left: 20rem;
+    width: 50rem;
+}
+.sec4 .temp5 p{
+    font-size: 20px;
+    padding-top: 1px;
+    padding-left: 20rem;
+    width: 30rem;
+}
+.sec4 .temp5 .b2{
+        margin-left:20px;
+        border-radius: 10px 10px 10px 10px;
+        padding:5px 15px;
+        font-size: 20px;
+        color: black;
+}
+.sec4 .temp5 .b1{
+    background-color:var(--primary-button-background) ;
+    border-radius: 10px 10px 10px 10px;
+    padding:5px 10px;
+    font-size: 20px;
+    color: white;
+    margin-left: 20rem;
+}
+.sec4 .temp6 img{
+    width: 50rem;
+    height: 50rem;
+    border-radius: 20px 20px 20px 20px;
+}
+.sec5{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top:20rem ;
+}
+.sec5 img{
+    height: 50rem;
+    width: 50rem;
+    margin-left: 10rem;
+    border-radius: 20px 20px 20px 20px;
+}
+.sec5 h2{
+    width: 50rem;
+    padding-bottom: 40px;
+
+}
+.sec5 h4 ,.sec5 p{
+    width: 50rem;
+}
+footer{
+    background-color: var(--background-color);
+    margin: 0px;
+    margin-top:20rem ;
+    display: flex;
+}
+footer .t10{
+    width: 15rem;
+}
+footer .t9{
+    width: 35rem;
+}
+footer .t9 img{
+    margin-left:5rem;
+    margin-top:5rem;
+}
+footer .t9 h4{
+    margin-left:5rem;
+    line-height: 0.1px;
+    color: var(--primary-color); 
+}  
+.menu{
+    display: flex;
+    line-height: 0.1px;
+    cursor: pointer;
+    margin-left: 50rem;
+}
+.menu h4{
+    color: var(--primary-color);
+    margin-left:0rem;
+    font-size: 2rem;
+}
+.menu h3{
+    font-size: 27px;
+    margin: 0px;
+    margin-top: 3rem;
+}
+.social{
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+.social a{
+    display:block;
+    font-size: 18px;
+    border: solid 1px;
+    transition: all 0.5s linear;
+    color: white;
+    transform: translateX(-118px);
+    padding:4px;
+
+}
+.social .facebook{
+    background-color: #1877F2;
+    border-color:#1877F2;
+    margin-bottom: 3px;
+}
+.social .tele{
+    background-color: rgb(57, 132, 176);
+    border-color:rgb(57, 132, 176);
+    margin-bottom: 3px;
+}
+.social .insta{
+    background-color: rgb(235, 22, 168);
+    border-color: rgb(235, 22, 168);
+    margin-bottom: 3px;
+}
+.social .linkedin{
+    background-color: rgb(28, 111, 205);
+    border-color:#1877F2;
+    margin-bottom: 3px;
+}
+.social .utube{
+    background-color: red;
+    border-color:red;
+    margin-bottom: 3px;
+}
+.social a:hover{
+    transform: translateX(0);
+}
+
+@media screen and (min-width:850px) and (max-width:1025px) {
+    html{
+        font-size: 55%;
+    }
+    .sec4,.temp,.sec2,.sec5{
+        display: flex;
+        flex-flow: column;
+    }
+    header nav .right a,header nav .right button{
+        font-size: 3rem;
+        width: 12rem;
+        padding: 0.6rem;
+        height: 6rem;
+        } 
+    header nav .left .mid ul a{
+        font-size: 4rem;
+        margin-right: 2rem;
+    }
+    header nav .left .mid ul{
+        padding-left: 3rem;
+    }
+    header nav .left .logo img{
+        width: 15rem;
+    }
+    header nav .left{
+        width: 65rem;
+    }
+    .temp .leftside p,.sec2 .temp2 p,.sec4 .temp5  p{
+        font-size: 3rem;
+        width: 50rem;
+    }
+    .temp .leftside h1,.sec2 .temp2 h2,.sec4 .temp5 h2,.sec5 h2{
+        width: 60rem;
+        font-size: 7rem;
+    }
+    .sec2 .temp2{
+        margin-left: 10rem;
+    }
+    .sec3 h2{
+        font-size: 4rem;
+    }
+    .sec3 .temp3 p{
+        font-size: 4rem;
+        width: 50rem;
+    }
+    .sec3{
+        height: 90rem;
+         }
+     .sec3 .temp4 .t1 ,
+     .sec3 .temp4 .t2 ,
+     .sec3 .temp4 .t3 {
+         width: 27rem;
+         height: 45rem;
+         margin-left: 1rem;
+         margin-right: 1rem;
+     }
+     .sec3 .temp4 .t1 img ,.sec3 .temp4 .t2 img ,.sec3 .temp4 .t3 img{
+        margin-top: 1rem;
+     }
+     .sec4 .temp6  img,.sec5 img{
+        width: 60rem;
+        margin-left: 15rem;
+        margin-top: 20rem;
+        height: 100rem;
+     }
+     .sec5 .temp8{
+        margin-left: 15rem;
+        margin-top: 20rem;
+     }
+     footer{
+        margin-top:20rem ;
+        display: flex;
+    }
+    .sec6 .t9{
+        width: 30rem;
+    }
+    .menu{
+        display: flex;
+        margin-left: 0rem;
+        margin-top: 3rem;
+    }
+    .menu h3{
+        font-size: 4rem;
+    }
+    .menu h4{
+        font-size: 2.5rem;
+    }
+}
+@media (min-width:717px) and  (max-width:850px){
+    html{
+        font-size:45%;
+    }
+    .sec4,.temp,.sec2,.sec5{
+        display: flex;
+        flex-flow: column;
+    }
+    .temp{
+        height: 70rem;
+    }
+    .temp .rightside img{
+        width: 50rem;
+        height: 50rem;
+        margin-top: 20rem;
+        margin-right: 3rem;
+    }
+    .sec2{
+        margin-top: 100rem;
+    }
+    .sec2 .temp2{
+        margin-left: 12rem;
+        margin-top: 32rem;
+    }
+    .sec2 .temp2 h2{
+        font-size: 7rem;
+    }
+    .sec2 .temp1 figure{
+        height: 75rem;
+        width: 35rem;
+    }
+    .sec2 .temp1 figure img{
+        width: 60rem;
+    }
+    .sec3{
+        height: 80rem;
+         }
+     .sec3 .temp4 .t1 ,
+     .sec3 .temp4 .t2 ,
+     .sec3 .temp4 .t3 {
+         width: 25rem;
+         height: 50rem;
+         margin-left: 1rem;
+         margin-right: 1rem;
+     }
+     .sec3 .temp4 .t1 img ,
+     .sec3 .temp4 .t2 img ,
+     .sec3 .temp4 .t3 img{
+        margin-top: 1rem;
+     }
+     .sec4 .temp5 h2{
+        font-size: 7rem;
+        width: 60rem;
+     }
+    .sec4 .temp6 img{
+        margin-left:20rem;
+        margin-top: 30rem;
+        width: 60rem; 
+        height: 70rem;  
+    }
+    .sec5 img{
+        width: 60rem;
+        margin-top: 30rem;
+        margin-left: 20rem;
+        height: 70rem;
+    }
+    .sec5 h2{
+        font-size: 7rem;
+        width: 60rem;
+    }
+    .sec5 .temp8{
+        margin-top: 30rem;
+        margin-left: 25rem;
+    }
+    footer{
+        margin-top:20rem ;
+        display: flex;
+    }
+    .menu{
+        display: flex;
+        margin-left: 0rem;
+        margin-top: 3rem;
+    }
+    .menu h3{
+        font-size: 3rem;
+    }
+    .menu h4{
+        font-size: 2rem;
+    }
+}
+@media (min-width:601px) and (max-width:717px) {
+    html{
+        font-size:35%;
+    }
+    .sec4,.temp,.sec2,.sec5{
+        display: flex;
+        flex-flow: column;
+    }
+    header nav .right{
+        display: flex;
+        } 
+    header nav .right a,header nav .right button{
+        font-size: 4rem;
+        width: 12rem;
+        padding: 0.6rem;
+        height: 6rem;
+        } 
+    header nav .left .mid ul a{
+        font-size: 4rem;
+        margin-right: 2rem;
+    }
+    header nav .left .mid ul{
+        padding-left: 3rem;
+    }
+    .temp .rightside img{
+        margin-top: 20rem;
+    }
+    .sec3{
+        height: 90rem;
+    }
+    .sec4 .temp5 h2{
+        font-size: 10rem;
+        width: 70rem;
+    }
+    .sec3 .temp4 .t1 img,.sec3 .temp4 .t2 img,.sec3 .temp4 .t3 img{
+        margin-top: 2rem;
+        height: 9rem;
+        width: 9rem;
+    }
+    .sec3 .temp4 .t1 ,
+     .sec3 .temp4 .t2 ,
+     .sec3 .temp4 .t3 {
+         width: 25rem;
+         height: 50rem;
+     }
+    .sec4 .temp6 img{
+        margin-left:20rem;
+        margin-top: 30rem;
+        width: 60rem; 
+        height: 70rem;  
+    }
+    .sec5 img{
+        width: 60rem;
+        margin-left: 20rem;
+        height: 70rem;
+    }
+    header nav .left .logo img{
+        width: 20rem;
+    }
+    .sec5 .temp8{
+        margin-top: 30rem;
+        margin-left: 25rem;
+    }
+    .sec5 h2{
+        font-size: 10rem ;
+        width: 70rem;
+    }
+    .sec2{
+        margin-top: 30rem;
+    }
+    .sec2 .temp1 figure img{
+        width:70rem;
+    }
+    .sec2 .temp2{
+        margin-left: 13rem;
+        margin-top: 30rem;
+    }
+    footer{
+        margin-top:20rem ;
+        display: flex;
+    }
+    .sec6 .t9 img{
+        width: 22rem;
+    }
+    .menu{
+        display: flex;
+        margin-left: 0rem;
+        margin-top: 3rem;
+    }
+    .menu h3{
+        font-size: 4rem;
+    }
+    .menu h4{
+        font-size: 3rem;
+    }
+}
+@media (min-width:505px) and (max-width:601px){
+    html{
+        font-size: 30%;
+    }
+    .sec4,.temp,.sec2,.sec5{
+        display: flex;
+        flex-flow: column;
+    }
+    .sec5 h2{
+        font-size: 10rem;
+        width: 75rem;
+    }
+    header nav .left .logo img{
+        width: 15rem;
+    }
+    header nav .left .mid ul a{
+        font-size: 4rem;
+        margin-right: 1rem;
+    }
+    header nav .left .mid ul{
+        padding: 0;
+        margin-left: 3rem;
+    }
+    header nav .left{
+        width: 60rem;
+    }
+    header nav .right a,header nav .right button{
+        font-size: 4rem;
+        width: 13rem;
+        padding: 0.5rem;
+        height: 6rem;
+        } 
+    .sec4 .temp5{
+        margin-left:0rem;
+    }
+    .sec4 .temp5 h2{
+        font-size: 10rem;
+        width: 70rem;
+    }
+    .sec4 .temp5 p{
+        width: 55rem;
+    }
+    .sec4 .temp6 img{
+        margin-left:20rem;
+        margin-top: 50rem;
+        width: 70rem; 
+        height: 90rem;  
+    }
+    .sec5 img{
+        width: 70rem;
+        margin-left: 20rem;
+        margin-top: 30rem;
+        height: 90rem;
+    }
+    .sec5 .temp8{
+        margin-left:20rem;
+        margin-top: 40rem;
+    }
+    .sec2{
+        margin-top: 30rem;
+    }
+    .temp .rightside img{
+        margin-top: 20rem;
+    }
+    .sec2 .temp2{
+        margin-left: 10rem;
+        margin-top: 40rem;
+    }
+    .sec3 .temp3 p{
+        width: 55rem;
+    }
+    .sec3{
+        height: 90rem;
+    }
+    .sec3 .temp4 .t1 img,.sec3 .temp4 .t2 img,.sec3 .temp4 .t3 img{
+        margin-top: 2rem;
+        height: 9rem;
+        width: 9rem;
+    }
+    .sec3 .temp4 .t1 ,
+     .sec3 .temp4 .t2 ,
+     .sec3 .temp4 .t3 {
+         width: 27rem;
+         height: 49rem;
+         margin: 0rem;
+    }
+    footer{
+        margin-top:20rem ;
+        display: flex;
+    }
+    .sec6 .t9{
+        width: 30%;
+    }
+    .sec6 .t9 img{
+        width: 22rem;
+    }
+    .menu{
+        display: flex;
+        margin-left: 0rem;
+        margin-top: 3rem;
+    }
+    .menu h3{
+        font-size: 4rem;
+    }
+    .menu h4{
+        font-size: 3rem;
+    }
+}
+@media (min-width:400px) and (max-width:504px){
+    html{
+        font-size: 25%;
+    }
+    .sec4,.temp,.sec2,.sec5{
+        display: flex;
+        flex-flow: column;
+    }
+    .sec4 .temp5 h2{
+        font-size: 10rem;
+        width: 70rem;
+    }
+    header nav .left{
+        width: 60rem;
+    }
+    .sec2{
+        margin-top: 30rem;
+    }
+    .sec4 .temp5 p{
+        width: 50rem;
+    }
+    .sec3 .temp4 .t1 ,
+     .sec3 .temp4 .t2 ,
+     .sec3 .temp4 .t3 {
+         width: 27rem;
+         height: 40rem;
+         margin: 1rem;
+    }
+    .sec4 .temp6 img{
+        margin-top: 30rem;
+        margin-left: 20rem;
+        height: 80rem;
+        width: 60rem;
+    }
+    .sec5 img{
+        margin-top: 30rem;
+        margin-left: 20rem;
+        height: 80rem;
+        width: 60rem;
+    }
+    .sec5 .temp8{
+        margin-left: 20rem;
+        margin-top: 30rem;
+    }
+    .sec3{
+        height: 100rem;
+    }
+    .sec3 .temp3 p{
+        width: 70rem;
+    }
+    footer .t9 img{
+        width: 20rem;
+    }
+    .sec3 .temp4 .t1 h2,
+    .sec3 .temp4 .t2 h2,
+    .sec3 .temp4 .t3 h2{
+        font-size: 2.5rem;
+    }
+    .sec2 .temp2 h2{
+        width: 70rem;
+    }
+    .sec3 .temp4 .t1 p,.sec3 .temp4 .t2 p,.sec3 .temp4 .t3 p {
+        width: 27rem;
+        margin: 0rem;
+    }
+
+    .sec2 .temp2{
+        margin-left: 12rem;
+        margin-top: 40rem;
+    }
+    .sec2 .temp2 h2{
+        width: 70rem;
+    }
+    .temp .rightside img{
+        margin-top: 20rem;
+    }
+    footer{
+        margin-top:20rem ;
+        display: flex;
+    }
+    .sec6 .t9{
+        width: 30%;
+    }
+    .menu{
+        display: flex;
+        margin-left: 0rem;
+        margin-top: 3rem;
+    }
+    .menu h3{
+        font-size: 4rem;
+        margin-right: 0px;
+    }
+    .menu h4{
+        font-size: 3rem;
+    }
+    .sec5 .temp8 h2{
+        font-size: 10rem;
+        width: 90rem;
+    }
+    .sec5 .temp8 h3{
+        line-height: 100%;
+        font-size: 6rem;
+    }
+    header nav .left .logo img{
+        width: 20rem;
+    }
+    header nav .left .mid ul a{
+        font-size: 3.9rem;
+        margin-right: 1rem;
+    }
+    header nav .left .mid ul{
+        padding-left: 5rem;
+        width: 100%;
+    }
+    header nav .right a,header nav .right button{
+        font-size:3.5rem;
+        width: 12rem;
+        height: 6rem;
+        padding: 1.1rem;
+        margin-right: 0rem;
+    } 
+    .temp .leftside p{
+        width: 70rem;
+    }
+    .temp .leftside .buttontemp .img1,.temp .leftside .buttontemp .img2{
+        width: 30rem;
+    }
+}
+@media (min-width:305px) and (max-width:400px){
+    html{
+        font-size: 20%;
+    }
+    .sec4,.temp,.sec2,.sec5{
+        display: flex;
+        flex-flow: column;
+    }
+    .sec3{
+        height: 80rem;
+    }
+    .sec2{
+        margin-top: 30rem;
+    }
+    header nav .left .logo img{
+        width: 15rem;
+        height: 12rem;
+    }
+    header nav .left .mid ul a{
+        font-size: 4rem;
+        margin-right: 1.4rem;
+    }
+    header nav .left .mid ul{
+        padding: 0rem;
+        width: 50rem;
+        margin-left: 2rem;
+    }
+    header nav .right a,header nav .right button{
+        font-size:3.5rem;
+        width: 12rem;
+        height: 6rem;
+        padding: 0rem;
+        margin-right: 0.5rem;
+    }
+    .temp .leftside h1{
+        width: 95rem;
+        font-size: 13.5rem;
+        margin-left: 10rem;
+    }
+    .temp .leftside p{
+        width: 70rem;
+        margin-left: 10rem;
+    }
+    .temp .leftside .buttontemp .img1,.temp  .leftside .buttontemp .img2{
+        width: 25rem;
+        margin-bottom: 25rem;
+        margin-left: 8rem;
+    }
+    footer .t9 img{
+        width: 18rem;
+    }
+    .sec6 .t9 h4{
+        font-size: 2rem;
+    }
+    .sec5 .temp8{
+        margin-left: 10rem;
+    }
+    footer{
+        margin-top:20rem ;
+        display: flex;
+    }
+    .sec6 .t9{
+        width: 27%;
+    }
+    .sec2 .temp2{
+        margin-left:1rem;
+    }
+    .temp .rightside img{
+        margin-left: 15rem;
+    }
+    .menu{
+        display: flex;
+        margin-left: 0rem;
+        margin-top: 3rem;
+    }
+    .menu h3{
+        font-size: 4rem;
+        margin-right: 0px;
+    }
+    .menu h4{
+        font-size: 3rem;
+    }
+    .sec3 .temp3 p {
+        width: 90rem;
+        font-size: 4rem;
+    }
+    .sec3 .temp3 h2{
+        font-size:6rem;
+    }
+    .sec3 .temp4 .t1 h2,
+    .sec3 .temp4 .t2 h2,
+    .sec3 .temp4 .t3 h2{
+        font-size: 2.5rem;
+    }
+    .sec3 .temp4 .t1,
+    .sec3 .temp4 .t2,
+    .sec3 .temp4 .t3{
+        width: 27rem;
+        height: 40rem;
+        margin: 0rem;
+    }
+    .sec2 .temp2 h2,.sec5 .temp8 h2{
+        width: 80rem;
+        font-size: 13.5rem;
+    }
+    .sec4 .temp5 h2{
+        width: 75rem;
+        font-size: 13.5rem;
+        padding-left: 10rem;
+    }
+    .sec4 .temp5 p{
+        width: 70rem;
+        padding-left: 10rem;
+    }
+    .sec4 .temp6 img{
+        margin-top: 30rem;
+    }
+    .sec4 .temp5 .b1{
+        padding-left: 2rem;
+        margin-left: 10rem;
+    }
+    .sec3 .temp4 .t1 p,.sec3 .temp4 .t2 p,.sec3 .temp4 .t3 p {
+        width: 25rem;
+        margin: 0rem;
+        margin-left: 1rem;
+    }
+    .sec4 .temp6 img{
+        margin-left: 10rem;
+    }
+    .sec5 .temp8 h2{
+        margin: 0rem;
+        margin-top: 30rem;
+        padding-bottom: 1rem;
+    }
+    .sec2 .temp2 p{
+        width: 75rem;
+    }
+}
+@media (min-width:305px) and (max-width:321px){
+    header nav .left .logo img{
+        width: 12rem;
+        height: 10rem;
+    }
+    header nav .left .mid ul{
+        width: 42rem;
+    }
+    header nav .left{
+        width: 40rem;
+    }
+}
